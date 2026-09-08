@@ -1,3 +1,24 @@
+// ==UserScript==
+// @name         Duolingo Max
+// @icon         https://d35aaqx5ub95lt.cloudfront.net/images/max/9f30dad6d7cc6723deeb2bd9e2f85dd8.svg
+// @namespace    https://tampermonkey.net/
+// @version      3.4.2
+// @description  Intercepts and modifies fetch Duolingo's API responses to give Duolingo Max.
+// @author       andrewshin
+// @match       *://*.duolingo.com/*
+// @match       *://*.duolingo.cn/*
+// @grant        none
+// @run-at       document-start
+// @license      MPL-2.0
+// @downloadURL https://update.greasyfork.org/scripts/552441/Duolingo%20Max.user.js
+// @updateURL https://update.greasyfork.org/scripts/552441/Duolingo%20Max.meta.js
+// ==/UserScript==
+
+
+/*
+ * Below this is the actual fetch interception and modification logic for Duolingo Max
+ */
+
 (function () {
   'use strict';
 
